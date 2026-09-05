@@ -1,0 +1,59 @@
+---
+description: Translate every English post in this repo into bilingual English + Burmese for a low-English learner.
+globs: "**/*.{md,txt,html}"
+alwaysApply: true
+---
+
+# Bilingual English + Burmese translation
+
+This project is a learning folder. The user pastes English web posts here to upgrade skills. English level is low. Every content file must become bilingual English + Burmese.
+
+## When to translate
+
+- User adds, pastes, or points to an English post/article/file
+- Any untranslated `.md`, `.txt`, or `.html` file appears (especially under `posts/`)
+- User says translate, bilingual, Burmese, Myanmar, or similar
+
+Do not translate `LICENSE`, `.cursor/`, or git metadata.
+
+## How to write each file
+
+Keep the original English. Do not summarize, skip, or rewrite the lesson.
+
+After every heading, paragraph, list item, quote, or caption, put the Burmese translation on the next line.
+
+```markdown
+# How JavaScript Closures Work
+# JavaScript Closure များ ဘယ်လို အလုပ်လုပ်သလဲ
+
+A closure is a function that remembers its outer variables.
+Closure ဆိုသည်မှာ ပြင်ပက variable များကို မှတ်ထားတဲ့ function ဖြစ်သည်။
+```
+
+- Bold label is optional. Prefer clean stacked lines (English, then Burmese).
+- Keep lists, links, images, and code fences in place.
+- Leave code, commands, file names, and URLs in English. Add a short Burmese note after the block if needed.
+- Keep well-known tech words (JavaScript, API, React) and add a simple Burmese meaning beside first use if helpful.
+- Use everyday spoken Burmese (မြန်မာစကား), not literary or overly formal.
+- If a sentence is hard, add one extra simple English line, then Burmese.
+
+## Fixed word list (user)
+
+Use these meanings every time. Do not use ပြေး for these words.
+
+- execute / executes / executed / execution = အလုပ်လုပ်သည်
+- run / runs / running = ခိုင်းသည်
+
+Spoken forms in notes: အလုပ်လုပ်တယ် / အလုပ်လုပ်ခြင်း, ခိုင်းတယ် / ခိုင်းခြင်း.
+Keep အချိန်နဲ့တပြေးညီ for "real-time" only.
+
+## Chat replies
+
+When talking to the user, write bilingual too: English first, Burmese next. Use short, simple English.
+
+## Workflow
+
+1. Read the English source file.
+2. Write the bilingual version in the same file (or `posts/<same-name>.md` if the source is raw paste).
+3. Translate the full post, not a summary.
+4. If no posts exist yet, tell the user to put English copies in `posts/` and wait. Do not invent articles.
